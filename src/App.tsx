@@ -50,7 +50,7 @@ function App() {
 
   return (
     <>
-      <Navbar onShoppingCartClick={toggleShoppingCart} />
+      <Navbar onShoppingCartClick={toggleShoppingCart} cartItems={cartItems} />
       <Products addToCart={addToCart} />
       <ShoppingCartSidebar
         isOpen={isShoppingCartOpen}
