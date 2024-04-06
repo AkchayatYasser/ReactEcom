@@ -7,6 +7,7 @@ interface Product {
   price: number;
   image: string;
   description: string;
+  quantity: number;
 }
 
 interface ProductsProps {
