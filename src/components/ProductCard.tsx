@@ -15,7 +15,7 @@ interface ProductCardProps {
   addToCart: () => void;
 }
 
-const ProductCard: React.FC<ProductCardProps> = ({ product, isSelected, toggleDetails, addToCart }) => {
+const ProductCard: React.FC<ProductCardProps> = ({ product, toggleDetails, addToCart }) => {
   return (
     <div className="card card-compact w-96 bg-base-100 shadow-xl">
       <figure className="h-32">
