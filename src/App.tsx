@@ -5,6 +5,15 @@ import ShoppingCartSidebar from './components/ShoppingCartSidebar';
 
 import './App.css';
 
+interface Product {
+  id: number;
+  title: string;
+  price: number;
+  image: string;
+  description: string;
+  quantity: number;
+}
+
 function App() {
   const [isShoppingCartOpen, setIsShoppingCartOpen] = useState(false);
   const [cartItems, setCartItems] = useState([]);
