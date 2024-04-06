@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import * as React from 'react';
+import { useState } from 'react';
 import Navbar from './components/Navbar';
 import Products from './components/Products';
 import ShoppingCartSidebar from './components/ShoppingCartSidebar';
