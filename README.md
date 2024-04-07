@@ -1,30 +1,41 @@
-# React + TypeScript + Vite
+Vite React TypeScript E-Commerce App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Live Demo](https://react-ecom-murex.vercel.app/)
 
-Currently, two official plugins are available:
+Welcome to our Vite React TypeScript E-Commerce App!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features: 
+- Fetches products from a fake API store.
+- Implements search functionality to find products efficiently.
+- Provides a shopping cart to manage selected products.
+- Clicking on a product's title reveals its details.
 
-## Expanding the ESLint configuration
+Technologies Used:
+- Vite: A fast build tool for modern web development.
+- React: A JavaScript library for building user interfaces.
+- TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
+- Tailwind CSS: A utility-first CSS framework for quickly building custom designs.
+- DaisyUI: A Tailwind CSS component library.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Getting Started
+Follow these steps to get the project up and running on your local machine:
 
-- Configure the top-level `parserOptions` property like this:
+1- Clone the repository:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+git clone [https://github.com/AkchayatYasser/ReactEcom.git](https://github.com/AkchayatYasser/ReactEcom.git)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2- Navigate to the project directory:
+
+cd ReactEcom
+
+3- Install dependencies:
+
+npm install
+
+4- Start the development server:
+
+npm run dev
+
+5- Open the application:
+
+Open your browser and navigate to http://localhost:4200.
